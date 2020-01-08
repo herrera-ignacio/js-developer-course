@@ -168,6 +168,13 @@ removing and changing HTML, dynamically applying new styles to your page, etc.
 right in a web page, or grab a video from your web camera and display it on someone else's
 computer.
 
+#### Node APIs
+
+Node.js is a JS runtime built on Chrome's V8 JavaScript engine, we'll get into details of this
+later on the course. Node.js will serve as a host environment, to run JavaScript outside the
+web browser, and just the same as it, it will provide methods to expose data from the
+surrounding computer environment and underlying OS (file system, networking and concurrency).
+
 #### Third-party APIs
 
 Not built into your host environment by default and you generally have to grab their code and
