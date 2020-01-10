@@ -2,9 +2,48 @@
 In classic Object Oriented Programming (from now on OOP),
 objects are collections of data and methods.
 JavaScript is a prototype-based that contains no class statements (until ES6)
-instead it uses functions as classes
+instead it uses functions as classes.
+
+Objects can be seen as a collection of properties, which can be added
+and removed after initialization. Property types can be values of any type,
+including other objects, which enables building complex data structure.
+Properties are identified using key values that are either a String or a Symbol.
+
+There are two types of OBJECT PROPERTIES which have certain attributes:
+- Data property
+- Accessor property
  */
 
+// DATA PROPERTY
+/*
+Associates a key with a value and has following attributes
+- Value  (Any)
+- Writable (Boolean)
+- Enumerable (Boolean)
+- Configurable (Boolean)
+ */
+
+// Accessor property
+/*
+Associates a key with one of two accessor functions (get and set)
+to retrieve or store a value and has following attributes:
+- Get (function)
+- Set (function)
+- Enumerable (Boolean)
+- Configurable (Boolean)
+ */
+
+const object1 = {};
+Object.defineProperty(object1, 'property1', {
+	value: 42,
+	writable: false,
+	get() { return 45 }
+});
+object1.property1 = 77; //thorws error;
+object1.property1; // 45
+
+// FUNCTIONS
+// Functions are regular objects with the additional capability of being callable
 // Since functions are objects, we can attach functions to another functions
 function makePerson(first, last) {
 	return {

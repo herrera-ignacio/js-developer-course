@@ -53,15 +53,45 @@ able to follow along.
   * switch case break
   * Array forEach
   
-### Section 3 - Introducing Objects  
+### Section 3 - Introducing Objects
+* Objects fundamentals
+    * Data property
+    * Accessor property
 * Custom Objects
 * Closures
 * DEMO (EXTRA)
+
+### Section 4 - Built-in objects
+* Fundamental objects
+* Value properties
+* Function Properties
+* Numbers and dates
+* Text processing
+* Indexed collections
+* Keyed collections
+* Structured data
+* Control abstraction objects
+* Reflection
+* Internationalization
+* WebAssembly
+* arguments (other)
+
+#### Section 4.1 - Fundamental objects
+* Object
+* Function
+* Boolean
+* Symbol
+* Error
+    * AggregateError
+    * EvalError
+    * InternalError
+    * RangeError
+    * ReferenceError
+    * SyntaxError
+    * TypeError
+    * URIError
+
 --- 
-
-# Section 4 - Data-structures in detail
-
-[Continue here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 #### What is Javascript
 
