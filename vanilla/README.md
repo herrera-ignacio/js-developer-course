@@ -1,6 +1,12 @@
 # Contents
 
-#### Section 1 - JS Introduction
+Idea: I will cover everything from intermediate and advanced MDN Javascript documentation
+and then go through Javascript Guide for experienced programmers.
+This guide will serve better for people with at least a minimal understanding of what
+programming and object-oriented paradigm is about, but even if you don't, you should be
+able to follow along.
+
+#### Section 1 - Introducing JS
 
 * What is Javascript
 * HTML, CSS and Javascript
@@ -8,22 +14,54 @@
 * Server-side vs Client-side code
 * Dynamic vs static
 * History and ECMAScript
-* Section code
-    * `1-first-steps`
-    * Web JS example
-    * Node.js example
-
-#### Section 2 - APIs intro
-
 * What is an API
 * Web APIs / Web Services
 * Browser API
 * Node API
 * Third-party API
 
+### Section 2 - JS Fundamentals
+* Variables
+* Dynamic Typing
+* Types
+  * Primitives
+    * Number
+    * BigInt
+    * String
+    * Boolean
+    * Symbol (ES2015)
+  * Object
+    * Function
+    * Array
+    * Date
+    * RegExpa
+    * Math
+    * Error
+  * undefined
+  * null
+* Operators
+* Control structures
+  * if else else-if
+  * do-while
+  * while
+  * for variants
+    * for loop
+    * for in
+    * for of
+  * short circuit operators (&& ||)
+  * ternary operator
+  * switch case break
+  * Array forEach
+  
+### Section 3 - Introducing Objects  
+* Custom Objects
+* Closures
+* DEMO (EXTRA)
 --- 
 
-# Section 1- Introduction
+# Section 4 - Data-structures in detail
+
+[Continue here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 #### What is Javascript
 
