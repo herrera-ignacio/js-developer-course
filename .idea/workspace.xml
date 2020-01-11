@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7643da06-640d-453c-b346-079bc347daad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/1-prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/2-assign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/3-create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/boolean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/4-defineProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/5-entries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla/3-objects/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/3-objects/intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +12,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/5-entries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/4-defineProperty.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/5-entries.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="23" />
+    <option name="width" value="1457" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="1W7FUT6dYtlLpicBMzb9q5uKbog" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="1-fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="1-fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="1-object" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -59,8 +126,60 @@
       <workItem from="1578589397078" duration="7995000" />
       <workItem from="1578660276136" duration="97000" />
       <workItem from="1578676605362" duration="3301000" />
+      <workItem from="1578710297123" duration="3134000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3134000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="DB Browser" weight="0.32980973" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="GraphQL" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" id="DB Browser" order="0" visible="true" weight="0.32980973" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.24947146" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="GraphQL" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -71,6 +190,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -102,5 +227,37 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/4-defineProperty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/3-create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/5-entries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
