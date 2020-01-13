@@ -1,7 +1,33 @@
 /*
 `Object.defineProperty()` defines a new property directly on an object,
 or modifies existing one, and returns the object.
- */
+
+A Property in Javascript consists of either a string-value name or a Symbol,
+and a property DESCRIPTOR.
+
+There are two types of OBJECT PROPERTIES which have certain attributes:
+- Data property
+- Accessor property
+
+// DATA PROPERTY
+Associates a key with a value and has following attributes
+- Value  (Any)
+- Writable (Boolean)
+	- Property value can be changed
+- Enumerable (Boolean)
+	- Properties that show up in for...in loops unless property's key is a Symbol
+- Configurable (Boolean)
+	- Property descriptor and existence, if you can delete or change attributes
+
+// Accessor property
+/*
+Associates a key with one of two accessor functions (get and set)
+to retrieve or store a value and has following attributes:
+- Get (function)
+- Set (function)
+- Enumerable (Boolean)
+- Configurable (Boolean)
+*/
 
 const obj = {};
 
