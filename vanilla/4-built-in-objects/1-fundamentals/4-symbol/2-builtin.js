@@ -127,3 +127,103 @@ class Split1 {
 
 console.log('foobar'.split(new Split1('foo')));
 // expected output: "foo/bar"
+
+/*
+`Symbol.hasInstance`: determine if a constructor object
+recognizes an object as its instance. Used by `instanceof`.
+ */
+
+class Array1 {
+	static [Symbol.hasInstance](instance) {
+		return Array.isArray(instance);
+	}
+}
+
+
+console.log([] instanceof Array1); // true
+
+/*
+`Symbol.isConcatSpreadable`: configure if an object should
+be flattened to its array elements when using the
+`Array.prototype.concat()` method.
+ */
+
+const alpha = ['a', 'b', 'c'];
+const numeric = [1, 2, 3];
+let alphaNumeric = alpha.concat(numeric);
+
+console.log(alphaNumeric); // Array [a, b, c, 1, 2, 3]
+
+numeric[Symbol.isConcatSpreadable] = false;
+alphaNumeric = alpha.concat(numeric);
+console.log(alphaNumeric); // Array [a, b, c, Array [1, 2, 3]]
+
+/*
+`Symbol.unscopables`: specify an object value of whose own
+and inherited property names are excluded from the `with`
+environment bindings of the associated objects.
+Not that if using Strict mode, `with` statements are not available.
+ */
+
+const object1 = {
+	property1: 42
+};
+
+object1[Symbol.unscopables] = {
+	property1: true
+};
+
+with (object1) {
+	console.log(property1);
+	// Error: property1 is not defined
+}
+
+/*
+`Symbol.species`: specifies a function-valued property that
+the constructor function uses to create derived objects.
+This allows subclasses to override the default constructor for
+objects, when using methods such as `map()` that return the
+default constructor.
+ */
+
+class MyArray extends Array {
+	static get [Symbol.species]() { return Array; }
+}
+
+const a = new MyArray(1, 2, 3);
+const mapped = a.map(x => x*x);
+
+console.log(mapped instanceof MyArray); // false
+console.log(mapped instanceof Array); // true
+
+/*
+`Symbol.toPrimitive` is a symbol that specifies a function
+valued property that is called to convert an object
+to a corresponding primitive value.
+ */
+
+const object1 = {
+	[Symbol.toPrimitive](hint) {
+		if (hint == 'number') {
+			return 42;
+		}
+		return null;
+	}
+}
+
+console.log(+object1); // 42
+
+/*
+`Symbol.toStringTag`: string valued property that is used in the
+creation of the default string description of an object. it is
+accessed internally by the `Object.prototype.toString()` method.
+ */
+
+class ValidatorClass {
+	get [Symbol.toStringTag]() {
+		return 'Validator';
+	}
+}
+
+console.log(Object.prototype.toString.call(new ValidatorClass()));
+// "[object Validator]"

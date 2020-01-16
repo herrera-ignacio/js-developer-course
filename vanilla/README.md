@@ -34,7 +34,7 @@ able to follow along.
     * Function
     * Array
     * Date
-    * RegExpa
+    * RegExp
     * Math
     * Error
   * undefined
@@ -52,6 +52,7 @@ able to follow along.
   * ternary operator
   * switch case break
   * Array forEach
+* STRICT MODE
   
 ### Section 3 - Introducing Objects
 * Objects fundamentals
