@@ -92,7 +92,49 @@ able to follow along.
     * SyntaxError
     * TypeError
     * URIError
+    
+#### Section 4.2 - Numbers and Dates
+* Number
+* BigInt
+* Math
+* Date
 
+#### Section 4.3 - Text Processing
+* String
+* RegExp
+
+#### Section 4.4 - Indexed Collections
+* Typed Array
+* Array-like constructs
+
+#### Section 4.5 - Keyed Collections
+* Map
+* Set
+* WeakMap
+* WeakSet
+
+#### Section 4.6 - Structured data
+* ArrayBuffer
+* SharedArrayBuffer
+* Atomics
+* DataView
+* JSON
+
+#### Section 4.7 - Control abstraction
+* Promise
+* Generator
+* GeneratorFunction
+* AsyncFunction
+
+#### Section 4.8 - Reflection
+* Reflect
+* Proxy
+
+#### Section 4.9 - Internationalization
+* Intl
+
+#### Section 4.10 - WebAssembly
+* WebAssembly
 --- 
 
 #### What is Javascript
