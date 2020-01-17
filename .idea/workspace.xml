@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7643da06-640d-453c-b346-079bc347daad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/1-properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/2-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/3-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/2-bigint/1-bigint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/3-math/1-properties.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +15,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/2-methods.js">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/2-bigint/1-bigint.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+            <state relative-caret-position="416">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/3-instance.js">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/3-math/1-properties.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="213">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,6 +87,8 @@
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/1-properties.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/2-methods.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/3-instance.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/2-bigint/1-bigint.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/3-math/1-properties.js" />
       </list>
     </option>
   </component>
@@ -132,6 +136,12 @@
               <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
               <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="3-objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
               <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,7 +157,7 @@
               <item name="vanilla" type="462c0819:PsiDirectoryNode" />
               <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
               <item name="2-numbers" type="462c0819:PsiDirectoryNode" />
-              <item name="1-number" type="462c0819:PsiDirectoryNode" />
+              <item name="3-math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,6 +172,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers" />
       <recent name="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/3-boolean" />
     </key>
   </component>
@@ -195,12 +206,12 @@
       <workItem from="1578710297123" duration="3221000" />
       <workItem from="1578872910036" duration="4286000" />
       <workItem from="1579047193992" duration="8165000" />
-      <workItem from="1579195176954" duration="7709000" />
+      <workItem from="1579195176954" duration="9541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23381000" />
+    <option name="totallyTimeSpent" value="25213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="23" width="1457" height="877" extended-state="0" />
@@ -703,6 +714,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/3-instance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/2-methods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -710,10 +731,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/1-number/3-instance.js">
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/2-bigint/1-bigint.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="416">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/3-objects/closures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/3-math/1-properties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
