@@ -14,6 +14,7 @@ able to follow along.
 * Server-side vs Client-side code
 * Dynamic vs static
 * History and ECMAScript
+* ECMAScript Milestones
 * What is an API
 * Web APIs / Web Services
 * Browser API
