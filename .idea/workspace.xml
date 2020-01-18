@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7643da06-640d-453c-b346-079bc347daad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/1-string/1-string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/1-string/2-instances.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/2-regexp/1-regexp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/1-string/2-instances.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/2-regexp/1-regexp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -130,6 +141,7 @@
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/2-numbers/4-date/2-instance.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/1-string/1-string.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/1-string/2-instances.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/2-regexp/1-regexp.js" />
       </list>
     </option>
   </component>
@@ -178,7 +190,7 @@
               <item name="vanilla" type="462c0819:PsiDirectoryNode" />
               <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
               <item name="3-text" type="462c0819:PsiDirectoryNode" />
-              <item name="1-string" type="462c0819:PsiDirectoryNode" />
+              <item name="2-regexp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,12 +241,12 @@
       <workItem from="1578872910036" duration="4286000" />
       <workItem from="1579047193992" duration="8165000" />
       <workItem from="1579195176954" duration="10736000" />
-      <workItem from="1579301527104" duration="8003000" />
+      <workItem from="1579301527104" duration="8544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34411000" />
+    <option name="totallyTimeSpent" value="34952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -332,13 +344,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/8-getOwnPropertyDescriptor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/4-defineProperty.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -771,6 +776,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/2-regexp/1-regexp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
