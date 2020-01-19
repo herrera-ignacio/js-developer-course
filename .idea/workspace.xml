@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7643da06-640d-453c-b346-079bc347daad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/1-map/1-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/2-set/1-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/3-weakMap/1-weakMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/4-weakSet/1-weakSet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +20,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/1-array.js">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/1-map/1-map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="105" column="38" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
+            <state relative-caret-position="409">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/2-set/1-set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="66" column="3" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/3-weakMap/1-weakMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -29,10 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js">
+        <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/4-weakSet/1-weakSet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="117" column="78" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
+            <state relative-caret-position="240">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -50,10 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/5-entries.js" />
-        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/6-freeze.js" />
-        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/7-fromEntries.js" />
-        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/8-getOwnPropertyDescriptor.js" />
         <option value="$PROJECT_DIR$/vanilla/3-objects/intro.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/4-defineProperty.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/9-getPrototypeOf.js" />
@@ -101,6 +124,10 @@
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/3-text/2-regexp/1-regexp.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/1-array.js" />
         <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/1-map/1-map.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/2-set/1-set.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/3-weakMap/1-weakMap.js" />
+        <option value="$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/4-weakSet/1-weakSet.js" />
       </list>
     </option>
   </component>
@@ -168,15 +195,31 @@
               <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
               <item name="vanilla" type="462c0819:PsiDirectoryNode" />
               <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="4-indexedCollections" type="462c0819:PsiDirectoryNode" />
+              <item name="5-keyed-collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
               <item name="vanilla" type="462c0819:PsiDirectoryNode" />
               <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="4-indexedCollections" type="462c0819:PsiDirectoryNode" />
-              <item name="1-array" type="462c0819:PsiDirectoryNode" />
+              <item name="5-keyed-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="2-set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="5-keyed-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="3-weakMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-developer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-developer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="vanilla" type="462c0819:PsiDirectoryNode" />
+              <item name="4-built-in-objects" type="462c0819:PsiDirectoryNode" />
+              <item name="5-keyed-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="4-weakSet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,18 +272,18 @@
       <workItem from="1579195176954" duration="10736000" />
       <workItem from="1579301527104" duration="9313000" />
       <workItem from="1579387072865" duration="7327000" />
-      <workItem from="1579454823265" duration="2345000" />
+      <workItem from="1579454823265" duration="9933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45393000" />
+    <option name="totallyTimeSpent" value="52981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25229034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25229034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" weight="0.32980973" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -255,7 +298,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,43 +364,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/7-fromEntries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/13-isSealed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/16-seal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/15-preventExtensions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/1-fundamentals/1-object/14-keys.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -737,9 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/1-array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
+        <state relative-caret-position="345">
           <caret line="105" column="38" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -747,10 +760,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/4-indexedCollections/1-array/2-prototype.js">
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/1-map/1-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="117" column="78" selection-start-line="117" selection-start-column="78" selection-end-line="117" selection-end-column="78" />
+        <state relative-caret-position="409">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/2-set/1-set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="66" column="3" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/3-weakMap/1-weakMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vanilla/4-built-in-objects/5-keyed-collections/4-weakSet/1-weakSet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
