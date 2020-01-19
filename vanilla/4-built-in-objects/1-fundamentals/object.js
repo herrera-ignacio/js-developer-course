@@ -17,7 +17,7 @@ and the end of a prototype chain
 
 Nearly all objects in JavaScript are instances of `Object`.
 Typical object inherits properties from `Object.prototype`,
-altough these may be shadowed (a.k.a overriden).
+although these may be shadowed (a.k.a overriden).
 
 However, an Object may be deliberately created for which is
 not true:
