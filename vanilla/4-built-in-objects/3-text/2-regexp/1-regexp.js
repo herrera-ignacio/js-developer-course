@@ -4,9 +4,9 @@ text with a pattern
  */
 
 // SYNTAX
-/pattern/flags // literal notation
-new RegExp(pattern[, flags])
-RegExp(pattern[, flags])
+// /pattern/flags; // literal notation
+// myRegExp new RegExp(pattern[, flags]);
+// RegExp(pattern[, flags]);
 /*
 Use constructor function when you know the regular expression's pattern
 will be changing, or you don't know the pattern and are getting it from another
@@ -54,12 +54,12 @@ y (sticky)
 // EXAMPLES
 
 // 	Change data format
-let re = /(\w+)\s(\w+)/
-let str = 'John Smith'
+let re = /(\w+)\s(\w+)/;
+let str = 'John Smith';
 let newStr = str.replace(re, '$2, $1');
 console.log(newStr); // Smith, John
 
 // Split lines with different line endings | ends of line | line breaks
-let text = 'Some text\nAnd some more\r\nAnd yet\rThis is the end'
-let lines = text.split(/\r\n|\r|\n/)
-console.log(lines) // logs [ 'Some text', 'And some more', 'And yet', 'This is the end' ]
+let text = 'Some text\nAnd some more\r\nAnd yet\rThis is the end';
+let lines = text.split(/\r\n|\r|\n/);
+console.log(lines); // logs [ 'Some text', 'And some more', 'And yet', 'This is the end' ]
